@@ -1,0 +1,206 @@
+/* Fix vertical line spacing for Family book descandants side*/
+
+.wt-chart-family-book td:first-child *,
+::after,
+::before {
+   box-sizing: content-box;
+}
+
+/* Personbox style changes */
+
+.wt-chart .wt-chart-box, .w-100 td .wt-chart-box {
+	width: 260px;
+	height: 85px;
+	line-height: 1.05
+}
+
+.wt-chart .small {
+	font-size: 80%;
+}
+
+.wt-icon-sex-m,.wt-icon-sex-f {
+	font-size: 9px; content: none;
+}
+
+.wt-icon-zoom-in {
+    width: 25px;
+    height: 25px;
+}
+
+/* fix dropdowns on person box */
+
+.wt-chart-box .dropdown-menu {
+	padding: 0!important;
+	max-height: 40rem;
+	font-size: 12.8px;
+	overflow-y:hidden;
+}
+
+.wt-chart-box .dropdown-menu li .NAME {
+	padding-left: 20px; 
+	padding-top: 5px; 
+	line-height: 1.5;
+}
+
+[dir=rtl] .wt-chart-box .dropdown-menu li .NAME {
+	padding-right: 20px;
+}
+
+.wt-chart-box .wt-chart-box-name, .wt-chart-box .wt-chart-box-lifespan {
+	/* font-size: 12.8px; */
+	font-size: 14px;
+}
+
+div [class^="menu-chart-"] {
+	padding-top: 3px!important;
+}
+
+.wt-chart-box-zoom-dropdown div {
+	padding-top: 5px!important; 
+}
+
+div [class^="menu-chart-"] {
+	padding-left: 10px!important;
+}
+
+[dir=rtl] div [class^="menu-chart-"] {
+	padding-right: 10px!important;
+}
+
+div [class^="menu-chart-"] a {
+	padding-left: 5px; 
+	vertical-align: top; 
+	font-size: .83rem!important; 
+}
+
+[dir=rtl] div [class^="menu-chart-"] a {
+	padding-right: 5px; 
+}
+
+.wt-family-navigator-child  ul span {
+	margin: 0 5px;
+}
+
+/* Center text on forms */
+
+form .wt-page-options-label {
+    text-align: center;
+}
+
+/* increase size of note box */
+.wt-page-content .form-group .input-group {   
+	min-height: 200px;
+ }
+ 
+ /* widen table for places */
+.w-25.list_table {
+	width: 35%!important;
+}
+
+/* do not display lifespan in charts */
+.wt-chart-box-lifespan {
+	display: none;
+}
+ 
+/* Ancestor and Descendant charts - address vertical lines */
+.generations table {
+	border-spacing: 0;
+    border-collapse: collapse!important;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.generations .wt-chart-box {
+	margin: 0;
+	border-radius: 0;
+}
+
+span.details1 div[class^="fact_"] {
+	display: inline-block;
+}
+
+/* Add horizontal scrolling to small block displays */
+
+.wt-block-content-yahrzeit,
+.wt-block-content-recent-changes,
+.wt-block-content-user-messages,
+.wt-block-content-user-blog,
+.wt-block-content-upcoming-events,
+.wt-block-content-todays-events, 
+.wt-block-content-top10-givnnames,
+.wt-block-content-top10-surnames {
+	overflow-y: hidden;
+}
+
+/* Add vertical scrolling to small block displays */
+.wt-block-content-yahrzeit,
+.wt-block-content-recent-changes,
+.wt-block-content-user-messages,
+.wt-block-content-user-blog,
+.wt-block-content-upcoming-events,
+.wt-block-content-todays-events, 
+.wt-block-content-top10-givnnames,
+.wt-block-content-top10-surnames {
+    overflow: scroll;
+    max-height: 500px;
+}
+
+/* touch devices - icons larger */
+
+@media (any-hover: none) {
+
+	.wt-icon-zoom-in, .icon-pedigree {
+		width: 35px;
+		height: 35px;
+	}
+
+	wt-chart-box .wt-chart-box-name {
+		font-size: 16px;
+	}
+	
+	.icon-plus, .icon-minus {
+		width: 18px;
+		height: 18 px;
+	}
+}
+
+/* Position for cell phones */
+
+@media (max-width: 576px) {
+	.img-thumbnail {     
+		width: 35% !important;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+
+	#sidebar {
+		width: auto!important;
+	}
+}
+
+/* Widen context for various display sizes */
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 95%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 95%;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 95%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 75%;
+ 	}
+}
