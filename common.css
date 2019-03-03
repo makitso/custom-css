@@ -145,6 +145,12 @@ span.details1 div[class^="fact_"] {
     max-height: 500px;
 }
 
+/* add horizontal scroll bars to Lists */
+
+#place-hierarchy, .indi-list, .fam-list {
+	overflow-x: auto;
+}
+
 /* touch devices - icons larger */
 
 @media (any-hover: none) {
