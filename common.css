@@ -86,11 +86,6 @@ div [class^="menu-chart-"] a {
 form .wt-page-options-label {
     text-align: center;
 }
-
-/* increase size of note box */
-.wt-page-content .form-group .input-group {   
-	min-height: 200px;
- }
  
  /* widen table for places */
 .w-25.list_table {
