@@ -123,7 +123,8 @@ span.details1 div[class^="fact_"] {
 .wt-block-content-upcoming-events,
 .wt-block-content-todays-events, 
 .wt-block-content-top10-givnnames,
-.wt-block-content-top10-surnames {
+.wt-block-content-top10-surnames,
+.wt-block-content-todo {
 	overflow-y: hidden;
 }
 
@@ -135,7 +136,8 @@ span.details1 div[class^="fact_"] {
 .wt-block-content-upcoming-events,
 .wt-block-content-todays-events, 
 .wt-block-content-top10-givnnames,
-.wt-block-content-top10-surnames {
+.wt-block-content-top10-surnames,
+.wt-block-content-todo {
     overflow: scroll;
     max-height: 500px;
 }
@@ -144,6 +146,12 @@ span.details1 div[class^="fact_"] {
 
 #place-hierarchy, .indi-list, .fam-list {
 	overflow-x: auto;
+}
+
+/* correction for issue #2315 in primary dropdown menu for RTL*/
+
+[dir=rtl] .dropdown-menu[x-placement^=bottom] {
+	left: auto!important;
 }
 
 /* touch devices - icons larger */
