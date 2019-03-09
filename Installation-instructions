@@ -9,7 +9,7 @@ Option 2 - Use the styles in colors.css in all standard webtrees themes.
  
            There are several steps necessary in order to use a common.css file in the 2.0 version of webtrees.
            Step 1 - this style sheet into folder /public/css
-           Step 2 - add a <link to the stylesheet to file default.phtml located in folder /resuurces/views/layouts
+           Step 2 - add a <link to the stylesheet to file default.phtml located in folder /resources/views/layouts
   
            <link rel="stylesheet" href="<?= e(asset('css/common.css')) ?>">
   
