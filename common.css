@@ -150,7 +150,7 @@ span.details1 div[class^="fact_"] {
 
 /* correction for issue #2315 in primary dropdown menu for RTL*/
 
-[dir=rtl] .dropdown-menu[x-placement^=bottom] {
+[dir=rtl] .wt-genealogy-menu .dropdown-menu {
 	left: auto!important;
 }
 
