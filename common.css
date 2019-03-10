@@ -6,16 +6,17 @@
    box-sizing: content-box;
 }
 
-/* Personbox style changes */
+/* Person box style changes */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box {
-	width: 260px;
-	height: 85px;
-	line-height: 1.05
+	width: 254px;
+	height: 79px;
+	line-height: 1.05;
+	box-sizing: content-box;
 }
 
 .wt-chart .small {
-	font-size: 80%;
+	font-size: 11px;
 }
 
 .wt-icon-sex-m,.wt-icon-sex-f {
@@ -30,10 +31,9 @@
 /* fix dropdowns on person box */
 
 .wt-chart-box .dropdown-menu {
-	padding: 0!important;
-	max-height: 40rem;
+	max-height: 20rem;
 	font-size: 12.8px;
-	overflow-y:hidden;
+	padding: 5px 0;
 }
 
 .wt-chart-box .dropdown-menu li .NAME {
@@ -56,7 +56,7 @@ div [class^="menu-chart-"] {
 }
 
 .wt-chart-box-zoom-dropdown div {
-	padding-top: 5px!important; 
+	padding: 3px 5px 0 5px!important;
 }
 
 div [class^="menu-chart-"] {
