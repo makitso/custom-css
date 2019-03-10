@@ -21,3 +21,6 @@ Option 2 - Use the styles in colors.css in all standard webtrees themes.
                <?php endforeach ?>
 		   <link rel="stylesheet" href="<?= e(asset('css/common.css')) ?>">
            <?= View::stack('styles') ?>
+
+The FamilyBookChartModule.php, located in app/Module, has been modified to improve vertical line handling.  However,
+it can only be used along with the common.css changes.
