@@ -279,7 +279,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
                 echo '</td></tr></table>';
             }
             echo '</td>';
-            echo '<td>';;
+            echo '<td>';
         }
 
         if ($numkids === 0.0) {
