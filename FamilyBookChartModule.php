@@ -248,22 +248,22 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
                     if (count($children) > 1) {
                         if ($i === 0) {
                             // Adjust for the first column on left
-                            $h = round((($this->box->height * $kids) + 8) / 2); // Assumes border = 1 and padding = 3
+                            $h = round((($this->box->height * $kids)) / 2); // Assumes border = 1 and padding = 3
                             //  Adjust for other vertical columns
                             if ($kids > 1) {
                                 $h = round(($this->box->height * $kids) / 2);
                             }
                             echo '<td class="align-bottom">',
-                            '<img id="vline_', $child->xref(), '" src="', e(asset('css/images/vline.png')), '" width="3" height="', $h - 4, '"></td>';
+                            '<img id="vline_', $child->xref(), '" src="', e(asset('css/images/vline.png')), '" width="3" height="', $h, '"></td>';
                         } elseif ($i === count($children) - 1) {
                             // Adjust for the first column on left
-                            $h = round((($this->box->height * $kids) + 8) / 2);
+                            $h = round((($this->box->height * $kids)) / 2);
                             // Adjust for other vertical columns
                             if ($kids > 1) {
                                 $h = round(($this->box->height * $kids) / 2);
                             }
                             echo '<td class="align-top">',
-                            '<img class="bvertline" width="3" id="vline_', $child->xref(), '" src="', e(asset('css/images/vline.png')), '" height="', $h - 2, '"></td>';
+                            '<img class="bvertline" width="3" id="vline_', $child->xref(), '" src="', e(asset('css/images/vline.png')), '" height="', $h, '"></td>';
                         } else {
                             echo '<td class="align-bottomm"style="background: url(', e(asset('css/images/vline.png')), ');">',
                             '<img class="spacer"  width="3" src="', e(asset('css/images/spacer.png')), '"></td>';
@@ -291,7 +291,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
             echo '</td><td>',
             '<img class="linef1" src="', e(asset('css/images/hline.png')), '" width="8" height="3">';
         } else {
-            echo '<div style="width:', $this->box->width + 8, 'px; height:', $this->box->height + 8, 'px;"></div>',
+            echo '<div style="width:', $this->box->width + 8, 'px; height:', $this->box->height, 'px;"></div>',
             '</td><td>';
         }
 
@@ -417,7 +417,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
             }
             echo '</tr><tr>',
             '<td class="align-top"><img class="pvline" alt="" role="presentation" src="', e(asset('css/images/vline.png')), '" width="3" height="', $lh, '"></td>',
-            '<td><img class="linef3" alt="" role="presentation" src="', e(asset('css/images/hline.png')), '" height="3"></td>',
+            '<td><img alt="" role="presentation" src="', e(asset('css/images/hline.png')), '" height="3"></td>',
             '<td>';
             //-- print the mother box
             echo FunctionsPrint::printPedigreePerson($family->wife());
