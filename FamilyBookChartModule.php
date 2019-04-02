@@ -245,6 +245,10 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
                     $numkids += $kids;
                     echo '</td>';
                     // Print the lines
+                    if (count($children) === 1) {
+						echo '<td>',
+						'<img class="linef1" src="', e(asset('css/images/hline.png')), '" width="3" height="3">';
+					}
                     if (count($children) > 1) {
                         if ($i === 0) {
                             // Adjust for the first column on left
@@ -265,7 +269,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
                             echo '<td class="align-top">',
                             '<img class="bvertline" width="3" id="vline_', $child->xref(), '" src="', e(asset('css/images/vline.png')), '" height="', $h, '"></td>';
                         } else {
-                            echo '<td class="align-bottomm"style="background: url(', e(asset('css/images/vline.png')), ');">',
+                            echo '<td class="align-bottom"style="background: url(', e(asset('css/images/vline.png')), ');">',
                             '<img class="spacer"  width="3" src="', e(asset('css/images/spacer.png')), '"></td>';
                         }
                     }
@@ -291,7 +295,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
             echo '</td><td>',
             '<img class="linef1" src="', e(asset('css/images/hline.png')), '" width="8" height="3">';
         } else {
-            echo '<div style="width:', $this->box->width + 8, 'px; height:', $this->box->height, 'px;"></div>',
+            echo '<div style="width:', $this->box->width + 11, 'px; height:', $this->box->height, 'px;"></div>',
             '</td><td>';
         }
 
