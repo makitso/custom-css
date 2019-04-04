@@ -1,12 +1,4 @@
-/* Fix vertical line spacing for Family book descandants side*/
-
-.wt-chart-family-book td:first-child *,
-::after,
-::before {
-   box-sizing: content-box;
-}
-
-/* Person box style changes */
+/* Person box style changes before padding 2 and border 1 are added.  w-100 for Family and spouse and compact charts */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box {
 	width: 254px;
@@ -15,7 +7,7 @@
 	box-sizing: content-box;
 }
 
-.wt-chart .small {
+.wt-chart .small, .wt-chart-box-facts .small {
 	font-size: 11px;
 }
 
@@ -26,6 +18,10 @@
 .wt-icon-zoom-in {
     width: 25px;
     height: 25px;
+}
+
+#childbox .person_box {
+	border: thin solid #aaa!important;
 }
 
 /* fix dropdowns on person box */
@@ -215,7 +211,13 @@ span.details1 div[class^="fact_"] {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
+	.container {
+		max-width: 95%;
+ 	}
+}
+
+@media (min-width: 1680px) {
 	.container {
 		max-width: 75%;
  	}
