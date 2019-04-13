@@ -1,4 +1,3 @@
-
 /* move style from code to css for tables in Hourglass Chart */
 
 .wt-chart-hourglass table {
@@ -23,7 +22,11 @@
 	box-sizing: content-box;
 	border: thin solid #aaa;
 	margin: 0;
-	padding: 3px;
+}
+/* fix padding for FAB theme */
+
+[dir] .wt-chart-box {
+	padding: 2px;
 }
 
 .wt-chart .small, .wt-chart-box-facts .small {
