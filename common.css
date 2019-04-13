@@ -1,10 +1,29 @@
-/* Person box style changes before padding 2 and border 1 are added.  w-100 for Family and spouse and compact charts */
+
+/* move style from code to css for tables in Hourglass Chart */
+
+.wt-chart-hourglass table {
+	border-collapse: collapse;  
+	border: none;
+}
+.wt-chart-hourglass th, .wt-chart-hourglass td {
+	padding: 0;
+}
+
+#childbox .person_box {
+	border: thin solid #aaa!important;
+}
+
+/* Person box style changes before padding 2 and border 1 are added.  
+ * w-100 for Family and spouse and compact charts */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box {
 	width: 254px;
 	height: 79px;
 	line-height: 1.05;
 	box-sizing: content-box;
+	border: thin solid #aaa;
+	margin: 0;
+	padding: 3px;
 }
 
 .wt-chart .small, .wt-chart-box-facts .small {
@@ -115,6 +134,11 @@ form .wt-page-options-label {
 
 span.details1 div[class^="fact_"] {
 	display: inline-block;
+}
+
+/* Add horizontal scrolling to small block displays */
+.hourglassChart .lineh1 {
+    margin-bottom: 0px;
 }
 
 /* Add horizontal scrolling to small block displays */

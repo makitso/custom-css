@@ -189,7 +189,10 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
         $this->show_spouse = $show_spouse;
         $this->descent     = $generations;
         $this->generations = $book_size;
-
+  /* The themes defines the box dimensions as  Height 85px and width of 260px */
+  /* However, the theme css files set the high to 5rem (80px) and the width of 20rem (320px). */
+  /* the calculations below assume box dimension as defined in the base theme */
+  
         $this->bhalfheight  = $this->box->height / 2;
         $this->dgenerations = $this->maxDescendencyGenerations($individual, 0);
 
@@ -247,7 +250,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
                     // Print the lines
                     if (count($children) === 1) {
 						echo '<td>',
-						'<img class="linef1" src="', e(asset('css/images/hline.png')), '" width="3" height="3">';
+						'<img src="', e(asset('css/images/hline.png')), '" width="3">';
 					}
                     if (count($children) > 1) {
                         if ($i === 0) {
@@ -293,7 +296,7 @@ class FamilyBookChartModule extends AbstractModule implements ModuleChartInterfa
         if ($person instanceof Individual) {
             echo FunctionsPrint::printPedigreePerson($person);
             echo '</td><td>',
-            '<img class="linef1" src="', e(asset('css/images/hline.png')), '" width="8" height="3">';
+            '<img src="', e(asset('css/images/hline.png')), '" width="8">';
         } else {
             echo '<div style="width:', $this->box->width + 11, 'px; height:', $this->box->height, 'px;"></div>',
             '</td><td>';
