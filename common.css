@@ -15,11 +15,11 @@
 /* Person box style changes before padding 2 and border 1 are added.  
  * w-100 for Family and spouse and compact charts */
 
-.wt-chart .wt-chart-box, .w-100 td .wt-chart-box {
+.wt-chart .wt-chart-box, .w-100 td .wt-chart-box, .d-flex .wt-chart-box {
 	width: 254px;
 	height: 79px;
-	line-height: 1.05;
 	box-sizing: content-box;
+	line-height: 1.05;
 	border: thin solid #aaa;
 	margin: 0;
 }
