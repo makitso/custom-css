@@ -139,6 +139,11 @@ span.details1 div[class^="fact_"] {
 	display: inline-block;
 }
 
+[dir] .wt-chart-ancestors .linea2, [dir] .wt-chart-ancestors .linea4, 
+[dir] .wt-chart-descendants .lined2, [dir] .wt-chart-descendants .lined4 {
+    margin: 0;
+}
+
 /* Add horizontal scrolling to small block displays */
 .hourglassChart .lineh1 {
     margin-bottom: 0px;
