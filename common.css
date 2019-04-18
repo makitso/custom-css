@@ -16,9 +16,8 @@
  * w-100 for Family and spouse and compact charts */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box, .d-flex .wt-chart-box {
-	width: 15.875rem; /* 254px */
-	height: 4.9375rem; /* 79px */
-	box-sizing: content-box;
+	width: 16.25rem; /* 260px */
+	height: 5rem; /* 80px */
 	line-height: 1.05;
 	border: thin solid #aaa;
 }
