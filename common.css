@@ -16,17 +16,11 @@
  * w-100 for Family and spouse and compact charts */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box, .d-flex .wt-chart-box {
-	width: 254px;
-	height: 79px;
+	width: 15.875rem; /* 254px */
+	height: 4.9375rem; /* 79px */
 	box-sizing: content-box;
 	line-height: 1.05;
 	border: thin solid #aaa;
-	margin: 0;
-}
-/* fix padding for FAB theme */
-
-[dir] .wt-chart-box {
-	padding: 2px;
 }
 
 .wt-chart .small, .wt-chart-box-facts .small {
@@ -121,27 +115,9 @@ form .wt-page-options-label {
 .wt-chart-box-lifespan {
 	display: none;
 }
- 
-/* Ancestor and Descendant charts - address vertical lines */
-.generations table {
-	border-spacing: 0;
-    border-collapse: collapse!important;
-    padding: 0;
-    margin: 5px 0;
-}
-
-.generations .wt-chart-box {
-	margin: 0;
-	border-radius: 0;
-}
 
 span.details1 div[class^="fact_"] {
 	display: inline-block;
-}
-
-[dir] .wt-chart-ancestors .linea2, [dir] .wt-chart-ancestors .linea4, 
-[dir] .wt-chart-descendants .lined2, [dir] .wt-chart-descendants .lined4 {
-    margin: 0;
 }
 
 /* Add horizontal scrolling to small block displays */
