@@ -126,30 +126,30 @@ span.details1 div[class^="fact_"] {
 
 /* Add horizontal scrolling to small block displays */
 
-.wt-block-content-yahrzeit,
-.wt-block-content-recent-changes,
-.wt-block-content-user-messages,
-.wt-block-content-user-blog,
-.wt-block-content-upcoming-events,
-.wt-block-content-todays-events, 
-.wt-block-content-top10-givnnames,
-.wt-block-content-top10-surnames,
-.wt-block-content-todo {
+.wt-block-content-recent_changes,
+.wt-block-content-todays_events, 
+.wt-block-content-todo,
+.wt-block-content-top10_givnnames,
+.wt-block-content-top10_surnames,
+.wt-block-content-upcoming_events,
+.wt-block-content-user_messages,
+.wt-block-content-user_blog,
+.wt-block-content-yahrzeit {
 	overflow-y: hidden;
 }
 
 /* Add vertical scrolling to small block displays */
-.wt-block-content-yahrzeit,
-.wt-block-content-recent-changes,
-.wt-block-content-user-messages,
-.wt-block-content-user-blog,
-.wt-block-content-upcoming-events,
-.wt-block-content-todays-events, 
-.wt-block-content-top10-givnnames,
-.wt-block-content-top10-surnames,
-.wt-block-content-todo {
-    overflow: scroll;
-    max-height: 500px;
+.wt-block-content-recent_changes,
+.wt-block-content-todays_events, 
+.wt-block-content-todo,
+.wt-block-content-top10_givnnames,
+.wt-block-content-top10_surnames,
+.wt-block-content-upcoming_events,
+.wt-block-content-user_messages,
+.wt-block-content-user_blog,
+.wt-block-content-yahrzeit {
+	overflow: scroll;
+
 }
 
 /* add horizontal scroll bars to Lists */
@@ -229,3 +229,4 @@ span.details1 div[class^="fact_"] {
 		max-width: 75%;
  	}
 }
+
