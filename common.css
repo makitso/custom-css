@@ -148,6 +148,7 @@ span.details1 div[class^="fact_"] {
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
 .wt-block-content-yahrzeit {
+	max-height: 500px;
 	overflow: scroll;
 
 }
