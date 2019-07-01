@@ -7,7 +7,7 @@ There are two ways to use these style changes for webtrees.
 Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the 
 	   common.css to the end of the specific style sheet, located in /public/css.
 
-Option 2 - Use the styles in common.css in all standard webtrees themes - Note only will work for 2.0 github update as of 12 March 2019.
+Option 2 - Use the styles in common.css in all standard webtrees themes - Note only will work for 2.0 github updates as of 12 March 2019.
  
            There are several steps necessary in order to use a common.css file in the 2.0 version of webtrees.
            Step 1 - copy this style sheet into folder /public/css
