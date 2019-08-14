@@ -42,12 +42,15 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
            <li>Step 1 - copy this style sheet (common.css) into folder /public/css </li>
            <li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
 	   <li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
-	   <li>Step 4 - Add these line in the first "head" text box:<p><textarea style="width: 600px; height: 80px;">
-		 <link rel="stylesheet" href="public/css/common.css">
-		 <link rel="stylesheet" href="public/css/colors.css">
-		 </textarea> </li>
-		 <li>Step 5 - Add these line in the second "body "text box:<p><textarea style="width: 600px; height: 350px">
-		 <script>
+	   <li>Step 4 - Add these line in the first "head" text box:
+	   <pre>
+			&lt;link rel="stylesheet" href="public/css/common.css"&gt;
+			&lt;link rel="stylesheet" href="public/css/colors.css"&gt;
+		</pre>
+	   </li>
+		 <li>Step 5 - Add these line in the second "body "text box:
+		 <pre>
+		 &lt;script&gt;
 		 $(".wt-theme-colors .wt-genealogy-menu, .wt-theme-clouds .wt-genealogy-menu").on("mouseenter mouseleave", ".dropdown", function (e) {
 		     var dropdown = $(e.target).closest(".dropdown");
 		     var menu = $(".dropdown-menu", dropdown);
@@ -58,8 +61,8 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 		         menu[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
 		     }, 20);
 		 });
-		 </script>
-		 </textarea> </li>
+		 &lt;/script&gt;
+		 &lt;/textarea&gt; </pre></li>
 			</ul>
 </li>
 </ul>
