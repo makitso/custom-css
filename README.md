@@ -38,32 +38,16 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested as of 14 August 2019 against latest github.</li>
 
 <li>There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
-           <ul style="list-style-type: none;">
-           <li>Step 1 - copy this style sheet (common.css) into folder /public/css </li>
-           <li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
-	   <li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
-	   <li>Step 4 - Add these line in the first "head" text box:
-	   <pre>
+	<ul style="list-style-type: none;">
+		<li>Step 1 - copy this style sheet (common.css) into folder /public/css </li>
+		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
+		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
+		<li>Step 4 - Add this line in the first "head" text box:
+			<pre>
 &lt;link rel="stylesheet" href="public/css/common.css"&gt;
-&lt;link rel="stylesheet" href="public/css/colors.css"&gt;
-		</pre>
+			</pre>
 	   </li>
-		 <li>Step 5 - Add these line in the second "body "text box:
-		 <pre>
-&lt;script&gt;
-$(".wt-theme-colors .wt-genealogy-menu, .wt-theme-clouds .wt-genealogy-menu").on("mouseenter mouseleave", ".dropdown", function (e) {
-	var dropdown = $(e.target).closest(".dropdown");
-	var menu = $(".dropdown-menu", dropdown);
-	dropdown.addClass("show");
-	menu.addClass("show");
-	setTimeout(function () {
-		dropdown[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
-		menu[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
-	}, 20);
-});
-&lt;/script&gt;
-</pre></li>
-			</ul>
+	</ul>
 </li>
 </ul>
 </p>
