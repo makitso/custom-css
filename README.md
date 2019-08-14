@@ -31,14 +31,14 @@ Style changes to webtrees 2.0 for all themes for github as of 14 August 2019
 <p>
 There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
-<ul style="list-style-type: none;">
+<ul style="list-style-type: none;" =""="">
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
 	   common.css to the end of the specific style sheet, located in /public/css. </li>
 
 <li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested as of 14 August 2019 against latest github.</li>
 
-<li>There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
-	<ul style="list-style-type: none;">
+<li style="padding-left: 15px">There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
+	<ul style="list-style-type: none;" =""="">
 		<li>Step 1 - copy this style sheet (common.css) into folder /public/css </li>
 		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
 		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
