@@ -23,11 +23,6 @@ Style changes are for webtrees 2.0 ONLY, for all themes for github as of 14 Augu
 </svg>
 </a>Installation
 </h3>
-
-<p>The common.css file contains style changes for standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes.  
-
-Style changes to webtrees 2.0 for all themes for github as of 14 August 2019
-</p>
 <p>
 There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
