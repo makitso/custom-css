@@ -1,4 +1,4 @@
-# webtrees theme changes
+# webtrees 2.0 beta theme changes
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
@@ -9,7 +9,7 @@
 </a>Features
 </h3>
 
-<p>The common.css file contains style changes for all webtrees standard themes.</p> 
+<p>The common.css file contains style changes for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p> 
 <p>The goal of these changes is to utilize screen space a bit better and also provide better mobile support.</p>
 
 Style changes are for webtrees 2.0 ONLY, for all themes for github as of 14 August 2019
