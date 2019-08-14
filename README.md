@@ -24,20 +24,20 @@ Style changes are for webtrees 2.0 ONLY, for all themes for github as of 14 Augu
 </a>Installation
 </h3>
 
-<p>The common.css file contains style changes for standard webtrees themes.  
+<p>The common.css file contains style changes for standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes.  
 
 Style changes to webtrees 2.0 for all themes for github as of 14 August 2019
 </p>
 <p>
-There are two ways to use these style changes for webtrees.
+There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
 <ul>
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the 
 	   common.css to the end of the specific style sheet, located in /public/css. </li>
 
-<li>Option 2 - Use the styles in common.css in all standard webtrees themes - Note only will work for 2.0 github updates as of 12 March 2019.</li>
+<li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note only will work for 2.0 github updates as of 12 March 2019.</li>
  
-<li>There are several steps necessary in order to use a common.css file in the 2.0 version of webtrees. 
+<li>There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>. 
            <ul>
            <li>Step 1 - copy this style sheet into folder /public/css </li>
            <li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
@@ -51,7 +51,7 @@ There are two ways to use these style changes for webtrees.
 <h3><a id="user-content-license" class="anchor" aria-hidden="true" href="#license">
 	<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h3>
 <ul>
-<li>Copyright (C) 2019 webtrees development team</li>
+<li>Copyright (C) 2019 <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> development team</li>
 </ul>
 <p>This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
