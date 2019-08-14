@@ -44,25 +44,25 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 	   <li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
 	   <li>Step 4 - Add these line in the first "head" text box:
 	   <pre>
-			&lt;link rel="stylesheet" href="public/css/common.css"&gt;
-			&lt;link rel="stylesheet" href="public/css/colors.css"&gt;
+&lt;link rel="stylesheet" href="public/css/common.css"&gt;
+&lt;link rel="stylesheet" href="public/css/colors.css"&gt;
 		</pre>
 	   </li>
 		 <li>Step 5 - Add these line in the second "body "text box:
 		 <pre>
-		 &lt;script&gt;
-		 $(".wt-theme-colors .wt-genealogy-menu, .wt-theme-clouds .wt-genealogy-menu").on("mouseenter mouseleave", ".dropdown", function (e) {
-		     var dropdown = $(e.target).closest(".dropdown");
-		     var menu = $(".dropdown-menu", dropdown);
-		     dropdown.addClass("show");
-		     menu.addClass("show");
-		     setTimeout(function () {
-		         dropdown[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
-		         menu[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
-		     }, 20);
-		 });
-		 &lt;/script&gt;
-		 &lt;/textarea&gt; </pre></li>
+&lt;script&gt;
+$(".wt-theme-colors .wt-genealogy-menu, .wt-theme-clouds .wt-genealogy-menu").on("mouseenter mouseleave", ".dropdown", function (e) {
+	var dropdown = $(e.target).closest(".dropdown");
+	var menu = $(".dropdown-menu", dropdown);
+	dropdown.addClass("show");
+	menu.addClass("show");
+	setTimeout(function () {
+		dropdown[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
+		menu[dropdown.is(":hover") ? "addClass" : "removeClass"]("show");
+	}, 20);
+});
+&lt;/script&gt;
+</pre></li>
 			</ul>
 </li>
 </ul>
