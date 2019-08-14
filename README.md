@@ -12,7 +12,7 @@
 <p>The common.css file contains style changes for all webtrees standard themes.</p> 
 <p>The goal of these changes is to utilize screen space a bit better and also provide better mobile support.</p>
 
-Style changes are for webtrees 2.0 only. for all themes for github as of 14 August 2019
+Style changes are for webtrees 2.0 ONLY, for all themes for github as of 14 August 2019
 </p>
 
 <h3>
@@ -35,15 +35,16 @@ There are two ways to use these style changes for webtrees.
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the 
 	   common.css to the end of the specific style sheet, located in /public/css. </li>
 
-<li>Option 2 - Use the styles in common.css in all standard webtrees themes - Note only will work for 2.0 github updates as of 12 March 2019.
+<li>Option 2 - Use the styles in common.css in all standard webtrees themes - Note only will work for 2.0 github updates as of 12 March 2019.</li>
  
-           There are several steps necessary in order to use a common.css file in the 2.0 version of webtrees.
+<li>There are several steps necessary in order to use a common.css file in the 2.0 version of webtrees. 
            <ul>
            <li>Step 1 - copy this style sheet into folder /public/css </li>
            <li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
 	   <li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
 	   <li>Step 4 - Add this value in the <head> element   <link rel="stylesheet" href="public/css/common.css">  </li>
 			</ul>
+</li>
 </ul>
 </p>
 
