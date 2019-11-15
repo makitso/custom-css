@@ -1,5 +1,14 @@
-/* move style from code to css for tables in Hourglass Chart */
+/* slid show controls */
+.wt-slide-show-controls {
+	opacity: .5;
+}
 
+/* add more vertical space to primary menu dropdowns */
+.wt-genealogy-menu .dropdown-menu {
+    max-height: 60rem;
+}
+
+/* move style from code to css for tables in Hourglass Chart */
 .wt-chart-hourglass table {
 	border-collapse: collapse;  
 	border: none;
@@ -41,7 +50,7 @@
 
 /* fix dropdowns on person box */
 
-.wt-chart-box .dropdown-menu {
+[dir] .wt-chart-box .dropdown-menu {
 	max-height: 50rem; /* all charts */
 }
 
@@ -130,7 +139,6 @@ span.details1 div[class^="fact_"] {
 .wt-block-content-todays_events, 
 .wt-block-content-todo,
 .wt-block-content-top10_givnnames,
-.wt-block-content-top10_surnames,
 .wt-block-content-upcoming_events,
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
@@ -143,7 +151,6 @@ span.details1 div[class^="fact_"] {
 .wt-block-content-todays_events, 
 .wt-block-content-todo,
 .wt-block-content-top10_givnnames,
-.wt-block-content-top10_surnames,
 .wt-block-content-upcoming_events,
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
@@ -230,4 +237,3 @@ span.details1 div[class^="fact_"] {
 		max-width: 75%;
  	}
 }
-
