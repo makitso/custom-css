@@ -3,9 +3,15 @@
 	opacity: .5;
 }
 
-/* add more vertical space to primary menu dropdowns */
-.wt-genealogy-menu .dropdown-menu {
-    max-height: 60rem;
+/* reduce padding on drop down for mouse-over javascript pirimay menu of colors-only theme */
+[dir] .dropdown-menu.show-colors {
+	padding: 0;
+	margin: 0;
+}
+
+/* Adjust height for webtrees theme pirimay menu */
+[dir] .dropdown-menu.show {
+    max-height: 60rem; 
 }
 
 /* move style from code to css for tables in Hourglass Chart */
