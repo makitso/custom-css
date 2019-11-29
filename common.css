@@ -3,12 +3,6 @@
 	opacity: .5;
 }
 
-/* reduce padding on drop down for mouse-over javascript pirimay menu of colors-only theme */
-[dir] .dropdown-menu.show-colors {
-	padding: 0;
-	margin: 0;
-}
-
 /* Adjust height for webtrees theme pirimay menu */
 [dir] .dropdown-menu.show {
     max-height: 60rem; 
