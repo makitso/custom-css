@@ -119,15 +119,6 @@ form .wt-page-options-label {
 	width: 35%!important;
 }
 
-/* do not display lifespan in charts */
-.wt-chart-box-lifespan {
-	display: none;
-}
-
-span.details1 div[class^="fact_"] {
-	display: inline-block;
-}
-
 /* Add horizontal scrolling to small block displays */
 .hourglassChart .lineh1 {
     margin-bottom: 0px;
