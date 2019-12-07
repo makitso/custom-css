@@ -1,4 +1,4 @@
-# webtrees 2.0 beta theme changes
+# webtrees 2.0.0 theme changes
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
@@ -12,7 +12,7 @@
 <p>The common.css file contains style changes for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
 <p>The goal of these changes is for better large screen space utilize as well a improved mobile support.</p>
 
-Style changes are for webtrees 2.0 Beta 5 and earlier.
+Style changes are for webtrees 2.0.0.
 </p>
 
 <h3>
@@ -30,7 +30,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
 	   common.css to the end of the specific style sheet, located in /public/css. </li>
 
-<li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested as of 14 August 2019 against latest github.</li>
+<li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested as of 7 December 2019 against latest github.</li>
 
 <li style="padding-left: 15px">There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 	<ul style="list-style-type: none;" =""="">
