@@ -35,8 +35,8 @@
 	font-size: 11px;
 }
 
-.wt-icon-sex-m,.wt-icon-sex-f {
-	font-size: 9px; content: none;
+.wt-icon-sex {
+    height: 1em;
 }
 
 .wt-icon-zoom-in {
