@@ -30,7 +30,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
 	   common.css to the end of the specific style sheet, located in /public/css. </li>
 
-<li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested as of 7 December 2019 against latest github.</li>
+<li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested as of 16 December 2019 against latest github.</li>
 
 <li style="padding-left: 15px">There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 	<ul style="list-style-type: none;" =""="">
@@ -41,6 +41,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 			<pre>
 &lt;link rel="stylesheet" href="public/css/common.css"&gt;
 			</pre>
+		<li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
 	   </li>
 	</ul>
 </li>
