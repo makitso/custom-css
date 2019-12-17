@@ -24,7 +24,6 @@ Style changes are for webtrees 2.0.0.
 </a>Installation
 </h3>
 <p>
-**** Note **** Option 2 appears to not work with Pretty URLs
 
 There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
@@ -39,9 +38,9 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 		<li>Step 1 - copy this style sheet (common.css) into folder /public/css </li>
 		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
 		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
-		<li>Step 4 - Add this line in the first "head" text box:
+		<li>Step 4 - Add this line in the first "head" text box (note use absolute address not relative)
 			<pre>
-&lt;link rel="stylesheet" href="public/css/common.css"&gt;
+&lt;link rel="stylesheet" href="https://your-site/public/css/common.css"&gt;
 			</pre>
 		<li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
 	   </li>
