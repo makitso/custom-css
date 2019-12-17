@@ -24,6 +24,8 @@ Style changes are for webtrees 2.0.0.
 </a>Installation
 </h3>
 <p>
+**** Note **** Option 2 appears to not work with Pretty URLs
+
 There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
 <ul style="list-style-type: none;" =""="">
