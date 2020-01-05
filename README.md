@@ -12,7 +12,7 @@
 <p>The common.css file contains style changes for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
 <p>The goal of these changes is for better large screen space utilize as well a improved mobile support.</p>
 
-Style changes are for webtrees 2.
+Style changes are for webtrees 2.  For a preview see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
 </p>
 
 <h3>
