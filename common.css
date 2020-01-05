@@ -5,34 +5,34 @@
 
 /* Adjust height for webtrees theme pirimay menu */
 [dir] .dropdown-menu.show {
-    max-height: 60rem; 
+    max-height: 60rem;
 }
 
 /* move style from code to css for tables in Hourglass Chart */
 .wt-chart-hourglass table {
-	border-collapse: collapse;  
-	border: none;
+    border-collapse: collapse;
+    border: none;
 }
 .wt-chart-hourglass th, .wt-chart-hourglass td {
-	padding: 0;
+    padding: 0;
 }
 
 #childbox .person_box {
-	border: thin solid #aaa!important;
+    border: thin solid #aaa!important;
 }
 
-/* Person box style changes before padding 2 and border 1 are added.  
+/* Person box style changes before padding 2 and border 1 are added.
  * w-100 for Family and spouse and compact charts */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box, .d-flex .wt-chart-box {
-	width: 16.25rem; /* 260px */
-	height: 5rem; /* 80px */
-	line-height: 1.05;
-	border: thin solid #aaa;
+    width: 16.25rem; /* 260px */
+    height: 5rem; /* 80px */
+    line-height: 1.05;
+    border: thin solid #aaa;
 }
 
 .wt-chart .small, .wt-chart-box-facts .small {
-	font-size: 11px;
+    font-size: 11px;
 }
 
 .wt-icon-sex {
@@ -45,67 +45,67 @@
 }
 
 #childbox .person_box {
-	border: thin solid #aaa!important;
+    border: thin solid #aaa!important;
 }
 
 /* fix dropdowns on person box */
 
 [dir] .wt-chart-box .dropdown-menu {
-	max-height: 50rem; /* all charts */
+    max-height: 50rem; /* all charts */
 }
 
 .wt-chart-pedigree .wt-chart-box .wt-chart-box-zoom-dropdown {
-	max-height: 20rem; /* only for zoom on pedigree */
+    max-height: 20rem; /* only for zoom on pedigree */
 }
 
 .wt-chart-box .dropdown-menu {
-	font-size: 12.8px;
-	padding: 5px 0;
+    font-size: 12.8px;
+    padding: 5px 0;
 }
 
 .wt-chart-box .dropdown-menu .NAME {
-	padding-left: 20px; 
-	padding-top: 5px; 
-	line-height: 1.5;
+    padding-left: 20px;
+    padding-top: 5px;
+    line-height: 1.5;
 }
 
 [dir=rtl] .wt-chart-box .dropdown-menu .NAME {
-	padding-right: 20px;
+    padding-right: 20px;
 }
 
 .wt-chart-box .wt-chart-box-name, .wt-chart-box .wt-chart-box-lifespan {
-	/* font-size: 12.8px; */
-	font-size: 14px;
+    /* font-size: 12.8px; */
+    font-size: 14px;
 }
 
 div [class^="menu-chart-"] {
-	padding-top: 3px!important;
+    padding-top: 3px!important;
 }
 
 .wt-chart-box-zoom-dropdown div {
-	padding: 3px 5px 0 5px!important;
+    padding: 3px 5px 0 5px!important;
 }
 
 div [class^="menu-chart-"] {
-	padding-left: 10px!important;
+    padding-left: 10px!important;
 }
 
 [dir=rtl] div [class^="menu-chart-"] {
-	padding-right: 10px!important;
+    padding-right: 10px!important;
 }
 
 div [class^="menu-chart-"] a {
-	padding-left: 5px; 
-	vertical-align: top; 
-	font-size: .83rem!important; 
+    padding-left: 5px;
+    vertical-align: top;
+    font-size: .83rem!important;
 }
 
 [dir=rtl] div [class^="menu-chart-"] a {
-	padding-right: 5px; 
+    padding-right: 5px;
 }
 
 .wt-family-navigator-child  ul span {
-	margin: 0 5px;
+    margin: 0 5px;
 }
 
 /* Center text on forms */
@@ -113,10 +113,10 @@ div [class^="menu-chart-"] a {
 form .wt-page-options-label {
     text-align: center;
 }
- 
- /* widen table for places */
+
+/* widen table for places */
 .w-25.list_table {
-	width: 35%!important;
+    width: 35%!important;
 }
 
 /* Add horizontal scrolling to small block displays */
@@ -127,104 +127,104 @@ form .wt-page-options-label {
 /* Add horizontal scrolling to small block displays */
 
 .wt-block-content-recent_changes,
-.wt-block-content-todays_events, 
+.wt-block-content-todays_events,
 .wt-block-content-todo,
 .wt-block-content-top10_givnnames,
 .wt-block-content-upcoming_events,
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
 .wt-block-content-yahrzeit {
-	overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 /* Add vertical scrolling to small block displays */
 .wt-block-content-recent_changes,
-.wt-block-content-todays_events, 
+.wt-block-content-todays_events,
 .wt-block-content-todo,
 .wt-block-content-top10_givnnames,
 .wt-block-content-upcoming_events,
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
 .wt-block-content-yahrzeit {
-	max-height: 500px;
-	overflow: scroll;
+    max-height: 500px;
+    overflow: scroll;
 
 }
 
 /* add horizontal scroll bars to Lists */
 
 #place-hierarchy, .indi-list, .fam-list {
-	overflow-x: auto;
+    overflow-x: auto;
 }
 
 /* correction for issue #2315 in primary dropdown menu for RTL*/
 
 [dir=rtl] .wt-genealogy-menu .dropdown-menu {
-	left: auto!important;
+    left: auto!important;
 }
 
 /* touch devices - icons larger */
 
 @media (any-hover: none) {
 
-	.wt-icon-zoom-in, .icon-pedigree {
-		width: 35px;
-		height: 35px;
-	}
+    .wt-icon-zoom-in, .icon-pedigree {
+        width: 35px;
+        height: 35px;
+    }
 
-	wt-chart-box .wt-chart-box-name {
-		font-size: 16px;
-	}
-	
-	.icon-plus, .icon-minus {
-		width: 18px;
-		height: 18 px;
-	}
+    .wt-chart-box .wt-chart-box-name {
+        font-size: 16px;
+    }
+
+    .icon-plus, .icon-minus {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 /* Position for cell phones */
 
 @media (max-width: 576px) {
-	.img-thumbnail {     
-		width: 35% !important;
-		height: auto;
-		display: block;
-		margin: auto;
-	}
+    .img-thumbnail {
+        width: 35% !important;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
 
-	#sidebar {
-		width: auto!important;
-	}
+    #sidebar {
+        width: auto!important;
+    }
 }
 
 /* Widen context for various display sizes */
 
 @media (min-width: 576px) {
-	.container {
-		max-width: 95%;
-	}
+    .container {
+        max-width: 95%;
+    }
 }
 
 @media (min-width: 768px) {
-	.container {
-		max-width: 95%;
-	}
+    .container {
+        max-width: 95%;
+    }
 }
 
 @media (min-width: 992px) {
-	.container {
-		max-width: 95%;
-	}
+    .container {
+        max-width: 95%;
+    }
 }
 
 @media (min-width: 1280px) {
-	.container {
-		max-width: 95%;
- 	}
+    .container {
+        max-width: 95%;
+    }
 }
 
 @media (min-width: 1680px) {
-	.container {
-		max-width: 75%;
- 	}
+    .container {
+        max-width: 75%;
+    }
 }
