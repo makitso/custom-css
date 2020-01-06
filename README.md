@@ -9,7 +9,7 @@
 </a>Features
 </h3>
 
-<p>The custom.css file contains style changes for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
+<p>The custom.css file contains enhancements for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
 <p>The goal of these changes is for better large screen space utilize as well a improved mobile support.</p>
 
 Style changes are for webtrees 2.  
