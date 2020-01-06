@@ -1,4 +1,4 @@
-# webtrees 2 theme changes
+# webtrees 2 standard theme enhancements
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
