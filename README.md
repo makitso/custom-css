@@ -9,10 +9,11 @@
 </a>Features
 </h3>
 
-<p>The common.css file contains style changes for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
+<p>The custom.css file contains style changes for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
 <p>The goal of these changes is for better large screen space utilize as well a improved mobile support.</p>
 
-Style changes are for webtrees 2.  For a preview see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
+Style changes are for webtrees 2.  
+For a preview see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
 </p>
 
 <h3>
@@ -29,18 +30,18 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 
 <ul style="list-style-type: none;" =""="">
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
-	   common.css to the end of the specific style sheet, located in /public/css. </li>
+	   custom.css to the end of the specific style sheet, located in /public/css. </li>
 
-<li>Option 2 - Use the styles in common.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release 2.0.1 as of 26 December.</li>
+<li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release 2.0.1 as of 26 December.</li>
 
-<li style="padding-left: 15px">There are several steps necessary in order to use a common.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
+<li style="padding-left: 15px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - copy this style sheet (common.css) into folder /public/css </li>
+		<li>Step 1 - copy this style sheet (custom.css) into folder /public/css </li>
 		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
 		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
 		<li>Step 4 - Add this line in the first "head" text box (note use absolute address not relative)
 			<pre>
-&lt;link rel="stylesheet" href="https://your-site/public/css/common.css"&gt;
+&lt;link rel="stylesheet" href="https://your-site/public/css/custom.css"&gt;
 			</pre>
 		<li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
 	   </li>
