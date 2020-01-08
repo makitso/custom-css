@@ -26,13 +26,26 @@ For a preview see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
 </h3>
 <p>
 
-There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
+There are three ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
 <ul style="list-style-type: none;" =""="">
 <li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
 	   custom.css to the end of the specific style sheet, located in /public/css. </li>
 
 <li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release 2.0.1 as of 26 December.</li>
+<li>Option 3 - Install these changes as a webtrees 2 module. 
+
+
+	Step 1 - download the custom-css.zip file
+		<li>Step 1 - download the custom-css.zip file</li>
+        <li>Step 2 - unzip the contents into the modules_v4 folder </li>
+        <li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
+
+</li>
+
+
+
+
 
 <li style="padding-left: 15px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 	<ul style="list-style-type: none;" =""="">
