@@ -1,4 +1,4 @@
-# webtrees 2 standard theme enhancements version 1.0.1
+# webtrees 2 standard theme enhancements version 1.0.2
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
@@ -31,7 +31,7 @@ There are three ways to use these style changes for <a href="https://www.webtree
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
 	   custom.css to the end of the specific style sheet, located in /public/css. </li>
-	<li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release 2.0.1 as of 26 December</li>
+	<li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release 2.0.2 as of 2 Feb 2020</li>
 	<li style="padding-left: 15px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a></li>
 	<ul style="list-style-type: none;" =""="">
 		<li>Step 1 - copy this style sheet (custom.css) into folder /public/css </li>

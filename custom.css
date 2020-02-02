@@ -140,12 +140,9 @@ form .wt-page-options-label {
 }
 
 /* Add horizontal scrolling to small block displays */
-
-.wt-block-content-recent_changes,
 .wt-block-content-todays_events,
 .wt-block-content-todo,
 .wt-block-content-top10_givnnames,
-.wt-block-content-upcoming_events,
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
 .wt-block-content-yahrzeit {
@@ -153,18 +150,15 @@ form .wt-page-options-label {
 }
 
 /* Add vertical scrolling to small block displays */
-.wt-block-content-recent_changes,
 .wt-block-content-todays_events,
 .wt-block-content-todo,
 .wt-block-content-top10_givnnames,
-.wt-block-content-upcoming_events,
 .wt-block-content-user_messages,
 .wt-block-content-user_blog,
 .wt-block-content-yahrzeit {
     max-height: 500px;
     overflow: scroll;
-
-}
+} 
 
 /* add horizontal scroll bars to Lists */
 
