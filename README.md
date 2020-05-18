@@ -31,7 +31,7 @@ There are three ways to use these style changes for <a href="https://www.webtree
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
 	   custom.css to the end of the specific style sheet, located in /public/css. </li>
-	<li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release <b> 2.0.3 as of 18 March 2020</b></li>
+	<li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release <b> 2.0.4 as of 18 May 2020</b></li>
 	<li style="padding-left: 15px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a></li>
 	<ul style="list-style-type: none;" =""="">
 		<li>Step 1 - copy this style sheet (custom.css) into folder /public/css </li>
