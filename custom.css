@@ -200,6 +200,10 @@ form .wt-page-options-label {
         display: block;
         margin: auto;
     }
+    
+    .col {
+    min-width: auto;
+    }
 
     #sidebar {
         width: auto!important;
