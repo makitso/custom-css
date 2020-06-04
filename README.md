@@ -1,4 +1,4 @@
-# webtrees 2 standard theme enhancements version 1.0.2
+# webtrees 2 standard theme enhancements version 1.0.3
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
@@ -12,8 +12,10 @@
 <p>The custom.css file contains enhancements for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.</p>
 <p>The goal of these changes is for better large screen space utilize as well a improved mobile support.</p>
 
-Style changes are for webtrees 2.  
-For a preview see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
+**Special note for large screen monitors with a screen width of 1680 or greater.  The last selector in the common.css file sets theses monitors to use 75% of the screen with for webtrees displays.  If you want webtrees to use 100% of the available screen change the 75% To 100%.
+
+Style changes are for webtrees 2 only. Tested for release  **2.0.5 as of 4 June 2020**
+For a preview of this release see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
 </p>
 
 <h3>
@@ -29,26 +31,27 @@ For a preview see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
 There are three ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
 <ul style="list-style-type: none;" =""="">
-	<li>Option 1 - If you only want these changes to apply to one theme then copy the "contents" of the
-	   custom.css to the end of the specific style sheet, located in /public/css. </li>
-	<li>Option 2 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes - Note tested for release <b> 2.0.4 as of 18 May 2020</b></li>
-	<li style="padding-left: 15px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a></li>
-	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - copy this style sheet (custom.css) into folder /public/css </li>
-		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
-		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
-		<li>Step 4 - Add this line in the first "head" text box (note use absolute address not relative)
-			<pre>&lt;link rel="stylesheet" href="https://your-site/public/css/custom.css"&gt;</pre></li>
-	</ul>
-	<li>Option 3 - Install these changes as a webtrees 2 module.</li>
+	<li>Option 1 - Install these changes as a webtrees 2 module.</li>
 	<ul style="list-style-type: none;" =""="">
 		<li>Step 1 - download the custom-css.zip file</li>
         <li>Step 2 - unzip the contents into the modules_v4 folder </li>
         <li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
 	</ul>
-	<li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5</li>
-</ul>
-</p>
+    <li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
+	<br>
+    <li>Option 3 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes 
+    </li>
+	<li style="padding-left: 25px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a></li>
+	<ul style="list-style-type: none;" =""="">
+		<li>Step 1 - copy this style sheet (custom.css) into folder /public/css </li>
+		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
+		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
+		<li>Step 4 - Add this line in the first "head" text box (note use absolute address not relative)
+			<br><pre>&lt;link rel="stylesheet" href="https://your-site/public/css/custom.css"&gt;</pre></li>
+	</ul>
+    <li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5</li></ul></p>
+
+
 
 <h3><a id="user-content-license" class="anchor" aria-hidden="true" href="#license">
 	<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h3>

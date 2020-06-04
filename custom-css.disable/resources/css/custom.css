@@ -1,3 +1,20 @@
+/**
+ * webtrees: online genealogy
+ * Copyright (C) 2020 webtrees development team
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* ---- custom.css -- */7
+
 /* Reduce spacing on Individual page */
 [dir] .card-body {
 	padding: .25rem .25rem .25rem 1.25rem;
@@ -9,8 +26,8 @@
 	
 /* Inline Individual data for FAB theme */
 [dir] .card-body dt {
-    clear: both;
-    margin-right: 0;
+	clear: both;
+	margin-right: 0;
 }	
 
 /* slid show controls */
@@ -25,33 +42,33 @@
 
 /* move style from code to css for tables in Hourglass Chart */
 .wt-chart-hourglass table {
-    border-collapse: collapse;
-    border: none;
+	border-collapse: collapse;
+	border: none;
 }
 .wt-chart-hourglass th, .wt-chart-hourglass td {
-    padding: 0;
+	padding: 0;
 }
 
 #childbox .person_box {
-    border: thin solid #aaa!important;
+	border: thin solid #aaa!important;
 }
 
 /* Person box style changes before padding 2 and border 1 are added.
  * w-100 for Family and spouse and compact charts */
 
 .wt-chart .wt-chart-box, .w-100 td .wt-chart-box, .d-flex .wt-chart-box {
-    width: 16.25rem; /* 260px */
-    height: 5rem; /* 80px */
-    line-height: 1.05;
-    border: thin solid #aaa;
+	width: 16.25rem; /* 260px */
+	height: 5rem; /* 80px */
+	line-height: 1.05;
+	border: thin solid #aaa;
 }
 
 .wt-chart .small, .wt-chart-box-facts .small {
-    font-size: 11px;
+	font-size: 11px;
 }
 
 .wt-icon-sex {
-    height: 1em;
+	height: 1em;
 }
 
 .wt-icon-zoom-in {
@@ -166,12 +183,6 @@ form .wt-page-options-label {
     overflow-x: auto;
 }
 
-/* correction for issue #2315 in primary dropdown menu for RTL*/
-
-[dir=rtl] .wt-genealogy-menu .dropdown-menu {
-    left: auto!important;
-}
-
 /* touch devices - icons larger */
 
 @media (any-hover: none) {
@@ -191,53 +202,36 @@ form .wt-page-options-label {
     }
 }
 
-/* Position for cell phones */
+/* Adjust for various display sizes */
 
-@media (max-width: 576px) {
-    .img-thumbnail {
-        width: 35% !important;
-        height: auto;
-        display: block;
-        margin: auto;
-    }
-    
-    .col {
-    min-width: auto;
-    }
+@media (max-width:500px) {
+	.img-thumbnail {
+		width: 35% !important;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
 
-    #sidebar {
-        width: auto!important;
-    }
+	.col {
+		min-width: auto;
+	}
+
+	#sidebar {
+		width: auto!important;
+	}
 }
 
-/* Widen context for various display sizes */
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 95%;
-    }
+@media (min-width:501px) and (max-width:1679px) {
+	.container {
+		max-width: 95%;
+	}
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 95%;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 95%;
-    }
-}
-
-@media (min-width: 1280px) {
-    .container {
-        max-width: 95%;
-    }
-}
-
+/* The following selector sets the webtrees screen utilization to 75% of the available screen size -- for large screen monitors.
+ * If you wish webtrees to uitilize all the available screen then change the max-width: to 100%
+ */
 @media (min-width: 1680px) {
-    .container {
-        max-width: 75%;
-    }
+	.container {
+		max-width: 75%;
+	}
 }
