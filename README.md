@@ -14,8 +14,8 @@
 
 **Special note for large screen monitors with a screen width of 1680 or greater.  The last selector in the common.css file sets these monitors to use 75% of the screen with for webtrees displays.  If you want webtrees to use 100% of the available screen change the 75% To 100%.
 
-Style changes are for webtrees 2 only. Tested for release  **2.0.6 as of 18 June 2020**
-For a preview of this release see <a href="https://skatekey.net" rel="nofollow">skatekey.net</a>
+Style changes are for webtrees 2 only. Tested for release  **2.0.7 released in  July 2020**.  Currently, does not work for 2.0.8 beta.
+For a preview of this release see <a href="https://skatekey.net" rel="nofollow">skatekey.net </a>
 </p>
 
 <h3>
