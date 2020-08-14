@@ -230,7 +230,7 @@ form .wt-page-options-label {
 }
 
 @media (min-width:501px) and (max-width:1679px) {
-	.container {
+	.container, .container-lg {
 		max-width: 95%;
 	}
 }
@@ -239,7 +239,7 @@ form .wt-page-options-label {
  * If you wish webtrees to uitilize all the available screen then change the max-width: to 100%
  */
 @media (min-width: 1680px) {
-	.container {
+	.container, .container-lg {
 		max-width: 75%;
 	}
 }
