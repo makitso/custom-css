@@ -15,8 +15,8 @@
 
 /* ---- custom.css -- */
 
-/* Reduce spacing on Individual page */
-.gallery img {
+/* Limit size of media object on Individual page for large monitors */
+#individual-images .gallery img {
   max-width: 200px;
   margin-left: auto;
   display: flex;
