@@ -1,4 +1,4 @@
-# webtrees 2 standard theme enhancements version 1.0.6
+# webtrees 2 standard theme enhancements version 1.0.7
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
@@ -14,7 +14,7 @@
 
 **Special note for large screen monitors with a screen width of 1680 or greater.  The last selector in the common.css file sets these monitors to use 75% of the screen with for webtrees displays.  If you want webtrees to use 100% of the available screen change the 75% To 100%.
 
-Style changes are for webtrees 2 only. Tested for release  **2.0.7 released in  July 2020**.  The 1.0.6 release work for 2.0.8 beta with container style changes.
+Style changes are for webtrees 2 only. Tested for release  **2.0.7 released in  July 2020** and 2.0.8 beta with container style changes.
 For a preview of this release see <a href="https://skatekey.net" rel="nofollow">skatekey.net </a>
 </p>
 
@@ -28,7 +28,7 @@ For a preview of this release see <a href="https://skatekey.net" rel="nofollow">
 </h3>
 <p>
 
-There are three ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
+There are two ways to use these style changes for <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a>.
 
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - Install these changes as a webtrees 2 module.</li>
@@ -39,16 +39,7 @@ There are three ways to use these style changes for <a href="https://www.webtree
 	</ul>
     <li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
 	<br>
-    <li>Option 3 - Use the styles in custom.css in all standard <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> themes 
-    </li>
-	<li style="padding-left: 25px">There are several steps necessary in order to use a custom.css file in the 2.0 version of <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a></li>
-	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - copy this style sheet (custom.css) into folder /public/css </li>
-		<li>Step 2 - Go to Control panel / All Modules and enable module CSS and JSS and then do a save </li>
-		<li>Step 3 - Go to Control panel / All Modules and select the wrench [Preferences] for CSS and JSS  </li>
-		<li>Step 4 - Add this line in the first "head" text box (note use absolute address not relative)
-			<br><pre>&lt;link rel="stylesheet" href="https://your-site/public/css/custom.css"&gt;</pre></li>
-	</ul>
+    
     <li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5</li></ul></p>
 
 
