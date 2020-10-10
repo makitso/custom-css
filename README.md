@@ -40,7 +40,8 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
     <li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
 	<br>
     
-    <h2> Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5</h2></ul></p>
+    Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
+    </ul></p>
 
 
 
