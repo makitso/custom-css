@@ -41,7 +41,8 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 	<br>
     
     Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
-    </ul></p>
+</ul>
+</p>
 
 
 
