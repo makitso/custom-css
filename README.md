@@ -40,7 +40,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
     <li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
 	<br>
     
-    <li>Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5</li></ul></p>
+    <h2> Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5</h2></ul></p>
 
 
 
@@ -55,7 +55,7 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.</p>
 <p>This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the lol
 GNU General Public License for more details.</p>
 <p>You should have received a copy of the GNU General Public License
 along with this program. If not, see <a href="http://www.gnu.org/licenses/" rel="nofollow">http://www.gnu.org/licenses/</a>.</p>
