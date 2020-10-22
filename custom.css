@@ -75,13 +75,21 @@
 	font-size: 11px;
 }
 
-.wt-icon-sex {
+.wt-icon-sex{
 	height: 1em;
+}
+
+.svg-inline--fa.fa-fw {
+    width: .75em;
 }
 
 .wt-icon-zoom-in {
     width: 25px;
     height: 25px;
+}
+
+[dir] [class^=fact_] {
+    margin-bottom: 0;
 }
 
 #childbox .person_box {
@@ -114,7 +122,6 @@
 }
 
 .wt-chart-box .wt-chart-box-name, .wt-chart-box .wt-chart-box-lifespan {
-    /* font-size: 12.8px; */
     font-size: 14px;
 }
 
@@ -239,7 +246,7 @@ form .wt-page-options-label {
  * If you wish webtrees to uitilize all the available screen then change the max-width: to 100%
  */
 @media (min-width: 1680px) {
-	.container, .container-lg {
+	.container, .container-lg, .wt-theme-fab .jc-fancy-imagebar {
 		max-width: 75%;
 	}
 }
