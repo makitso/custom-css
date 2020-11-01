@@ -3,16 +3,16 @@ Versions
 /* Limit size of media object on Individual page for large monitors */
 /* Reduce spacing on Individual page */
 /* Inline Individual data for FAB theme */
-/* slid show controls */
-/* Adjust height for webtrees theme pirimay menu */
-/* move style from code to css for tables in Hourglass Chart */
-/* Person box style changes before padding 2 and border 1 are added.
- * w-100 for Family and spouse and compact charts */
-/* fix dropdowns on person box */
+/* Slide show controls */
+/* Adjust height for webtrees theme primary menu */
+/* Move style from code to css for tables in Hourglass Chart */
+/* Person box style changes before padding 2 and border 1 are added */
+/* Add w-100 selector to family and spouse and compact charts */
+/* Fix drop downs on person box */
 /* Center text on forms */
 /* Add vertical scrolling to small block displays */
-/* add horizontal scroll bars to Lists */
-/* touch devices - icons larger */
+/* Add horizontal scroll bars to lists */
+/* Touch devices - icons larger */
 
 1.0.1 - Update FAB theme to match spacing for Individual names
 1.0.2 - Update vertical and horizontal scroll bars for specific lists.
