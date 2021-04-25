@@ -17,7 +17,7 @@
 
 Style changes are for webtrees 2 only. Tested for release  **2.0.15 released in April 2021** and github development code.
 =======
-Style changes are for webtrees 2 only and github development code.
+
 For a preview of this release see <a href="https://skatekey.net" rel="nofollow">skatekey.net </a>
 </p>
 
