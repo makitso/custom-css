@@ -23,4 +23,5 @@ Versions
 1.0.7 - Another fix for image size on individual page for width sizes > 75%
 1.0.8 - Add code to play nicer with other custom themes from Carmans
 1.0.9 - Add print controls for individual events
+1.0.10 - Changes necessary to support the development version with bootstrap 5.0
 
