@@ -1,4 +1,4 @@
-# webtrees 2 standard theme enhancements version 1.0.10
+# webtrees 2 standard theme enhancements version 1.0.11
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
