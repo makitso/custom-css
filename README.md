@@ -36,11 +36,13 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - Install these changes as a webtrees 2 module.</li>
 	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - download the custom-css.zip file</li>
-        <li>Step 2 - unzip the contents into the modules_v4 folder </li>
-        <li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
+		<li>Step 1 - download the custom-css.zip file (click on the file name above, then select Raw option)</li>
+			<ul>
+				<li
+        	<li>Step 2 - unzip the contents into the modules_v4 folder </li>
+        	<li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
 	</ul>
-    <li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
+    	<li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
 	<br>
     
     Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
