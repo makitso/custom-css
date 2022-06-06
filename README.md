@@ -36,7 +36,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - Install these changes as a webtrees 2 module.</li>
 	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - download the custom-css.zip file (click on the file name then select Raw option)</li>
+		<li>Step 1 - download the custom-css.zip file <b>(click on the file name then select Raw option)</b></li>
 			<ul>
 				<li
         	<li>Step 2 - unzip the contents into the modules_v4 folder </li>
