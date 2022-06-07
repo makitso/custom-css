@@ -1,4 +1,4 @@
-# webtrees 2 standard theme enhancements version 1.0.12
+# webtrees 2 standard theme enhancements version 1.0.13
 
 <h3>
 <a id="user-content-features" class="anchor" aria-hidden="true" href="#features">
@@ -15,7 +15,7 @@
 **Special note for large screen monitors with a width of 1680 or greater.  The last selector in the common.css file sets these monitors to use 75% of the screen with for webtrees displays.  If you want webtrees to use 100% of the available screen change the 75% To 100%.
 
 
-Style changes are for webtrees 2 only. Tested for version  **2.0.23 released in April 2022** and 2.1 released April 20 2022.
+Style changes are for webtrees 2 only. Tested for version  **2.0.24 released in June 2022** and 2.1.5 released June 2022.
 =======
 
 For a preview of this release see <a href="https://skatekey.net" rel="nofollow">skatekey.net </a>
@@ -36,7 +36,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - Install these changes as a webtrees 2 module.</li>
 	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - download the custom-css.zip file <b><a href="https://github.com/makitso/custom-css/raw/master/custom-css.zip" rel="nofollow">Download</a></b></li>
+		<li>Step 1 - download the latest release of the zip file <b><a href="https://github.com/makitso/custom-css/releases/tag/1.0.13" rel="nofollow">Latest Release</a></b></li>
         <li>Step 2 - unzip the contents into the modules_v4 folder </li>
         <li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
 	</ul>
