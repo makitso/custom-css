@@ -9,7 +9,7 @@
 </a>Features
 </h3>
 
-<p>The custom.css file contains enhancements for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> standard themes.  Results may be vary with custom themes such as webtrees-theme-justlight or the Rural theme</p>
+<p>The custom.css file contains enhancements for all <a href="https://www.webtrees.net/" rel="nofollow">webtrees</a> <b> standard themes</b>.  Results may be vary with custom themes such as webtrees-theme-justlight or the Rural theme.</p>
 <p>The goal of these changes is for better large screen space utilize as well a improved mobile support.</p>
 
 **Special note for large screen monitors with a width of 1680 or greater.  The last selector in the common.css file sets these monitors to use 75% of the screen with for webtrees displays.  If you want webtrees to use 100% of the available screen change the 75% To 100%.
@@ -40,7 +40,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
         <li>Step 2 - unzip into a temporary folder and move the custom-css.disable folder into the modules_v4 folder </li>
         <li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
 	</ul>
-    	<li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>
+    	<li> Option 2 - If you only want these changes to apply to one theme then copy the 		"contents" of the custom.css to the end of the specific style sheet, located in /public/css. 	</li>j
 	<br>
     
     Note: Be sure to clear your browser cache after these changes - Chrome Shift+F5, Firefox F5
