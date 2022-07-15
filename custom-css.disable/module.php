@@ -52,7 +52,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
      */
     public function customModuleVersion(): string
     {
-        return '1.0.13';
+        return '1.0.14';
     }
 
     /**

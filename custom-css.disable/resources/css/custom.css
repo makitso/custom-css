@@ -84,11 +84,29 @@
 /* Person box style changes before padding 2 and border 1 are added.
  * w-100 for Family and spouse and compact charts */
 
-.wt-chart .wt-chart-box, .w-100 td .wt-chart-box, .d-flex .wt-chart-box {
+/* Ensure that custom-css person box sizes only apply to standard webtrees themes */
+
+[class*="wt-theme-c"] .wt-chart .wt-chart-box, /* relationship chart */
+[class*="wt-theme-fab"] .wt-chart .wt-chart-box, /* relationship chart */
+[class*="wt-theme-minimal"] .wt-chart .wt-chart-box, /* relationship chart */
+[class*="wt-theme-webtrees"] .wt-chart .wt-chart-box, /* relationship chart */
+[class*="wt-theme-xenea"] .wt-chart .wt-chart-box, /* relationship chart */
+
+[class*="wt-theme-c"] .w-100 td .wt-chart-box, /* compact chart */
+[class*="wt-theme-fab"] .w-100 td .wt-chart-box, /* compact chart */
+[class*="wt-theme-minimal"] .w-100 td .wt-chart-box, /* compact chart */
+[class*="wt-theme-webtrees"] .w-100 td .wt-chart-box, /* compact chart */
+[class*="wt-theme-xenea"] .w-100 td .wt-chart-box, /* compact chart */
+
+[class*="wt-theme-c"] .d-flex .wt-chart-box,   /* all other charts */
+[class*="wt-theme-fab"] .d-flex .wt-chart-box, /* all other charts */
+[class*="wt-theme-minimal"] .d-flex .wt-chart-box, /* all other charts */
+[class*="wt-theme-webtrees"] .d-flex .wt-chart-box, /* all other charts */
+[class*="wt-theme-xenea"] .d-flex .wt-chart-box /* all other charts */
+	{  
 	width: 16.25rem; /* 260px */
 	height: 5rem; /* 80px */
 	line-height: 1.05;
-	border: thin solid #aaa;
 }
 
 .wt-chart .small, .wt-chart-box-facts .small {
