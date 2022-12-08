@@ -39,7 +39,7 @@ There are two ways to use these style changes for <a href="https://www.webtrees.
 <ul style="list-style-type: none;" =""="">
 	<li>Option 1 - Install these changes as a webtrees 2 module.</li>
 	<ul style="list-style-type: none;" =""="">
-		<li>Step 1 - download the latest release of the zip file <b><a href="https://github.com/makitso/custom-css/releases/tag/1.0.14" rel="nofollow">Latest Release</a></b></li>
+		<li>Step 1 - download the latest release of the zip file <b><a href="https://github.com/makitso/custom-css/releases/" rel="nofollow">Latest Release</a></b></li>
         <li>Step 2 - unzip into a temporary folder and move the custom-css.disable folder into the modules_v4 folder </li>
         <li>Step 3 - rename the folder custom-css.disable to custom-css</li> 
 	</ul>
