@@ -28,3 +28,4 @@ Versions
 1.0.12 - Monor style changes, remove bootstrap 5 workarounds, make some style unique to colors theme
 1.0.13 - Repackaging of 1.0.12 in a github release, no changes
 1.0.14 - Ensure that chart box sizing only applies to standard webtrees themes
+1.0.15 - Increase font sizeon family display
