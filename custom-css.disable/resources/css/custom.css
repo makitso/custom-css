@@ -109,7 +109,7 @@
 	line-height: 1.05;
 }
 
-.wt-chart .small, .wt-chart-box-facts .small {
+.wt-chart .wt-chart-box-facts .small {
 	font-size: 11px;
 }
 
