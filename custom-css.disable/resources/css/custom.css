@@ -278,6 +278,11 @@ form .wt-page-options-label {
 	.container, .container-lg {
 		max-width: 95%;
 	}
+/* code for Fancy Image Bar module respect max-width for FAB theme
+ */
+	.wt-theme-fab .jc-fancy-imagebar {
+        max-width: 95%;
+    }
 }
 
 /* The following selector sets the webtrees screen utilization to 75% of the available screen size -- for large screen monitors.
