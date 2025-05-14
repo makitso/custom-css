@@ -1,4 +1,4 @@
-<?php
+.18<?php
 
 /**
  * Example theme.  Here we are extending an existing theme.
@@ -52,7 +52,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
      */
     public function customModuleVersion(): string
     {
-        return '1.0.18';
+        return '1.0.19';
     }
 
     /**
