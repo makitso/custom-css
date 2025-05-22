@@ -1,4 +1,4 @@
-.18<?php
+<?php
 
 /**
  * Example theme.  Here we are extending an existing theme.
